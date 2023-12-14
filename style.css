@@ -1,0 +1,61 @@
+.p1
+{
+    font-size: 50px;
+    text-decoration: line-through;
+    color:rgb(234, 28, 135);
+}
+.p2
+{
+    font-size: 50px;
+    text-decoration:underline;
+    color:rgb(234, 28, 135);
+}
+.p3
+{
+    font-size: 50px;
+    text-decoration:overline;
+    color:rgb(234, 28, 135);
+}
+.p4
+{
+    color:rgb(234, 28, 135);
+    font-size: 70px;
+    text-transform: uppercase;
+    text-decoration:underline wavy rgb(219, 35, 149);
+}
+.p5
+{
+    color:rgb(234, 28, 135);
+    font-size: 70px;
+    text-transform: uppercase;
+    text-decoration:underline double;
+    text-decoration-color: orange;
+    text-decoration-style:wavy;
+}
+.p6
+{
+    color:rgb(234, 28, 135);
+    font-size: 70px;
+    text-shadow:rgb(219, 35, 149) 1px 0 10px ;
+}
+.p7
+{
+    height: 100px;
+    background-color: rgb(219, 35, 149);
+    font-size: 70px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    color:white;
+    text-shadow:  0px 3px 25px white, 5px 5px  black, 7px 7px white, 9px 9px black, 11px 11px white, 13px 13px black, 15px 15px white, 17px 17px black;
+}
+.p8
+{
+    color:pink;
+    background-color: pink;
+    font-size: 70px;
+    text-shadow:  1px 0 rgba(255, 107, 132, 1), 5px 0 rgba(255, 107, 132, 0.7),  10px 0  rgba(255, 107, 132, 0.5),  15px 0  rgba(255, 107, 132, 0.3), 20px 0  rgba(255, 107, 132, 0.1);
+}
+.p9::first-line
+{
+    letter-spacing:7px;
+}
